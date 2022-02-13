@@ -120,7 +120,12 @@ app.use('/git', function(req, res) {
   repos.handle(req, res)
 });
 
-
+app.use('/', function(req, res) {
+  res.send("hello");
+});
+app.use('/favicon.ico', function(req, res) {
+  res.send("hello");
+});
 
 app.listen(port, () => {
 //
