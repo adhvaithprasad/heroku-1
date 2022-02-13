@@ -1,0 +1,23 @@
+{
+  "name": "jk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "amrhextotext": "^1.1.1",
+    "directory-tree": "^3.2.1",
+    "express": "^4.17.2",
+    "firebase-admin": "^10.0.2",
+    "node-git-server": "^0.6.1",
+    "nodegit": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  },
+  "scripts": {
+    "test": "npx eslint index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
